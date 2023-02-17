@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Maybes的个人网站">
+    <title>Maybes的树洞</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background-color: #eee;
+        }
+
+        /*        * {
+            border: 1px solid black;
+        }*/
+
+        .flex {
+            display: flex;
+        }
+
+        .flex1 {
+            flex: 1;
+        }
+
+        .column {
+            flex-direction: column;
+        }
+
+        .daoHang {
+            display: flex;
+            height: 40px;
+            border-bottom: 1px solid black;
+            padding: 8px;
+        }
+
+        .baiSe {
+            background-color: white;
+        }
+
+        .neiRong {
+            padding: 10px;
+            line-height: 1.5;
+        }
+
+        .mg16 {
+            margin: 16px;
+        }
+
+        .yinYing {
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+    </style>
+</head>
+
+<body class="flex column">
+    <!-- 头部栏 -->
+    <div class="flex baiSe yinYing" style="
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    background-image: url();
+    ">
+        <img src="./images/logo1.png" alt="logo" width="130px" height="75px">
+    </div>
+    <!-- 主区 -->
+    <div class="flex flex1">
+        <!-- 侧边栏 -->
+        <div class="flex flex1 column">
+            <!-- 导航栏 -->
+            <div class="daoHang baiSe yinYing"><a href="https://www.midorg.com/">元岛</a></div>
+            <div class="daoHang baiSe yinYing"><a href="https://github.com/">GitHub</a></div>
+            <div class="daoHang baiSe yinYing"><a href="https://developer.mozilla.org/zh-CN/">MDN</a></div>
+            <div class="daoHang baiSe yinYing"><a href="https://www.runoob.com/">BUNOOB</a></div>
+        </div>
+        <!-- 内容区 -->
+        <div class="flex column" style="flex: 6">
+            <div class="flex" style="flex: 1">
+                <div class="flex column baiSe mg16 neiRong yinYing" style="flex: 1;">
+                    <h1>个人目标：</h1>
+                    <p>学习编程，绘画</p>
+                </div>
+                <div class="flex column baiSe mg16 neiRong yinYing" style="flex: 1;"></div>
+            </div>
+            <div class="flex" style="flex: 1">
+                <div class="flex column baiSe mg16 neiRong yinYing" style="flex: 1;"></div>
+                <div class="flex column baiSe mg16 neiRong yinYing" style="flex: 1;"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
